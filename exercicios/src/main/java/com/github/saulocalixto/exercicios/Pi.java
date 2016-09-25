@@ -1,16 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
+ * Aluno : Saulo de Araújo Calixto - Mt. 201609824
+ * Disciplina : Construção de Software
  */
 package com.github.saulocalixto.exercicios;
 
 /**
- *
- * @author saulocalixto
+ *Algoritmo que retorna o PI.
+ * @author Saulo Calixto
  */
 public class Pi {
     
+    /**
+     *
+     * @param n : limite do somatório para se obter o PI
+     * @return : Retorna o PI
+     */
     public static double calcPi(double n) {
         if(n < 1) {
             throw new IllegalArgumentException("Número inválido.");

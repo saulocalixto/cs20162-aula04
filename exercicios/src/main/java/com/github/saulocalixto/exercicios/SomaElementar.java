@@ -1,16 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
+ * Aluno : Saulo de Araújo Calixto - Mt. 201609824
+ * Disciplina : Construção de Software
  */
 package com.github.saulocalixto.exercicios;
 
 /**
- *
- * @author saulocalixto
+ *Algoritmo que implementa o somatório dos primeiros naturais
+ * @author Saulo Calixto
  */
 public class SomaElementar {
     
+    /**
+     *
+     * @param n : Tamanho da sequência de soma.
+     * @return : n-ésimo número na sequência de soma elementar.
+     */
     public static int soma (int n) {
         
         if(n < 1) {

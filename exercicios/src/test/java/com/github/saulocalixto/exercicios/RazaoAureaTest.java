@@ -18,12 +18,18 @@ public class RazaoAureaTest {
         RazaoAurea.obterRazao(-1, 5, 2);
     }
 
+    /**
+     *
+     */
     @Test(expected = IllegalArgumentException.class)
     public void NumyMenorx() {
 
         RazaoAurea.obterRazao(15, 5, 2);
     }
 
+    /**
+     *
+     */
     @Test(expected = IllegalArgumentException.class)
     public void NumkMenor0() {
 

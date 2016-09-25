@@ -1,7 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
+ * Aluno : Saulo de Araújo Calixto - Mt. 201609824
+ * Disciplina : Construção de Software
  */
 package com.github.saulocalixto.exercicios; 
 
@@ -9,11 +8,17 @@ import static com.github.saulocalixto.exercicios.Fatorial.fatorar;
 import static main.java.com.github.saulocalixto.exercicios.Potencia.resultado;
 
 /**
- *
- * @author saulocalixto
+ *Algoritmo que implementa a potência de um logaritmo natural elevado a n.
+ * @author Saulo Calixto
  */
 public class Logaritmo {
     
+    /**
+     *
+     * @param n : logratimo natural
+     * @param k : tamanho da aproximação
+     * @return : potência do logartimo.
+     */
     public static double logari (int n, int k) {
         
         if(n < 1 || k < 2) {

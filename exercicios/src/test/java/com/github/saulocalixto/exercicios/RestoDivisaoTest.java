@@ -18,6 +18,9 @@ public class RestoDivisaoTest {
         RestoDivisao.obterResto(0, 5);
     }
 
+    /**
+     *
+     */
     @Test(expected = IllegalArgumentException.class)
     public void NumInvY() {
 
@@ -30,7 +33,7 @@ public class RestoDivisaoTest {
     @Test
     public void numValido() {
 
-        RestoDivisao.obterResto(5, 8);
+        RestoDivisao.obterResto(8, 5);
     }
 
     /**

@@ -1,16 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
+ * Aluno : Saulo de Araújo Calixto - Mt. 201609824
+ * Disciplina : Construção de Software
  */
 package com.github.saulocalixto.exercicios;
 
 /**
- *
- * @author saulocalixto
+ *Algoritimo retorna o resto da divisão entre dois números.
+ * @author Saulo Calixto
  */
 public class RestoDivisao {
     
+    /**
+     *
+     * @param x : Dividendo
+     * @param y : Divisor
+     * @return : Resto da divisão.
+     */
     public static int obterResto (int x, int y) {
         
         if(y < 0 || x <= 0) {

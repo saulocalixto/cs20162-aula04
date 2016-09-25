@@ -18,6 +18,9 @@ public class LogaritmoTest {
         Logaritmo.logari(-1, 2);
     }
     
+    /**
+     *
+     */
     @Test(expected = IllegalArgumentException.class)
     public void KMenor2() {
 
