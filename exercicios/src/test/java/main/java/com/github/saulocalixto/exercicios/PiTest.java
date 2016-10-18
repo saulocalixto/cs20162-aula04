@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Pi;
+import com.github.saulocalixto.exercicios.Pi;
 import org.junit.Test;
 
 /**
@@ -32,6 +32,6 @@ public class PiTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Pi();
-    }    
+        Pi.chamarConstrutor();
+    }  
 }

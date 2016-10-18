@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.RaizQuadrada;
+import com.github.saulocalixto.exercicios.RaizQuadrada;
 import org.junit.Test;
 
 /**
@@ -32,6 +32,6 @@ public class RaizQuadradaTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new RaizQuadrada();
-    }
+        RaizQuadrada.chamarConstrutor();
+    }  
 }

@@ -15,17 +15,17 @@
     -->
 
     <groupId>com.github.saulocalixto</groupId>
-    <artifactId>cs20162-aula02</artifactId>
+    <artifactId>cs20162-aula04</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
-    <name>com.github.saulocalixto:cs2016-aula02</name>
+    <name>cs20162-aula04</name>
 
     <description>
         Projeto de referência (exemplo) inicial de desenvolvimento em Java com uso de JUnit.
     </description>
 
-    <url>https://github.com/saulocalixto/cs20162-aula02</url>
+    <url>https://github.com/saulocalixto/cs20162-aula06</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
@@ -46,18 +46,18 @@
 
     <developers>
         <developer>
-            <id>kyriosdata</id>
-            <name>Fábio Nogueira de Lucena</name>
-            <email>fabio@inf.ufg.br</email>
+            <id>saulocalixto</id>
+            <name>Saulo de Araújo Calixto</name>
+            <email>sauloacalixto@gmail.com</email>
             <organization>Instituto de Informática (UFG)</organization>
             <organizationUrl>http://www.inf.ufg.br</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/saulocalixto/cs20162-aula02.git</connection>
-        <developerConnection>scm:git:https://github.com/saulocalixto/cs20162-aula02.git</developerConnection>
-        <url>https://github.com/saulocalixto/cs20162-aula02</url>
+        <connection>scm:git:https://github.com/saulocalixto/cs20162-aula06.git</connection>
+        <developerConnection>scm:git:https://github.com/saulocalixto/cs20162-aula06.git</developerConnection>
+        <url>https://github.com/saulocalixto/cs20162-aula06</url>
     </scm>
 
     <properties>
@@ -105,6 +105,21 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>2.19.1</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.6</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.3</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.17</version>
+            </plugin>
         </plugins>
     </reporting>
 
@@ -135,7 +150,7 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
+</profile>
 
         <!-- PROFILE: release -->
         <profile>
@@ -174,6 +189,7 @@
                     </plugin>
 
                 </plugins>
+		
             </build>
 
         </profile>

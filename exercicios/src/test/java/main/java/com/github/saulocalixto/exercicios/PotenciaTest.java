@@ -5,8 +5,7 @@
  */
 package main.java.com.github.saulocalixto.exercicios;
 
-
-import main.java.com.github.saulocalixto.exercicios.Potencia;
+import com.github.saulocalixto.exercicios.Potencia;
 import org.junit.Test;
 
 /**
@@ -23,6 +22,12 @@ public class PotenciaTest {
 
         Potencia.resultado(1, -3);
     }
+    
+    @Test(expected = IllegalArgumentException.class)
+    public void NumInvMenor1() {
+
+        Potencia.resultado(-1, 3);
+    }
 
     /**
      *
@@ -38,6 +43,6 @@ public class PotenciaTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Potencia();
-    }   
+        Potencia.chamarConstrutor();
+    }  
 }

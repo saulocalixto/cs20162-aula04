@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Fatorial;
+import com.github.saulocalixto.exercicios.Fatorial;
 import org.junit.Test;
 
 /**
@@ -32,6 +32,6 @@ public class FatorialTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Fatorial();
+        Fatorial.chamarConstrutor();
     }    
 }

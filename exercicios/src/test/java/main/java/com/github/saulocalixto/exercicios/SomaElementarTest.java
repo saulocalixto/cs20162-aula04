@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.SomaElementar;
+import com.github.saulocalixto.exercicios.SomaElementar;
 import org.junit.Test;
 
 /**
@@ -32,6 +32,6 @@ public class SomaElementarTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new SomaElementar();
+        SomaElementar.chamarConstrutor();
     }    
 }

@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.RazaoAurea;
+import com.github.saulocalixto.exercicios.RazaoAurea;
 import org.junit.Test;
 
 /**
@@ -50,6 +50,6 @@ public class RazaoAureaTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new RazaoAurea();
-    }
+        RazaoAurea.chamarConstrutor();
+    }  
 }

@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Logaritmo;
+import com.github.saulocalixto.exercicios.Logaritmo;
 import org.junit.Test;
 
 /**
@@ -41,6 +41,6 @@ public class LogaritmoTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Logaritmo();
-    }    
+        Logaritmo.chamarConstrutor();
+    }  
 }

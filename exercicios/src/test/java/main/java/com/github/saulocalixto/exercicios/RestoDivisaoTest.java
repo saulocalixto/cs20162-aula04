@@ -1,6 +1,6 @@
 package main.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.RestoDivisao;
+import com.github.saulocalixto.exercicios.RestoDivisao;
 import org.junit.Test;
 
 /**
@@ -39,8 +39,8 @@ public class RestoDivisaoTest {
     /**
      *
      */
-    @Test
+     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new RestoDivisao();
-    }
+        RestoDivisao.chamarConstrutor();
+    }  
 }
