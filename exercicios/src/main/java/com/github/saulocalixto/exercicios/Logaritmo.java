@@ -30,6 +30,7 @@ public final class Logaritmo {
     *
     * @param n : logratimo natural
     * @param k : tamanho da aproximação
+    * se n menor que 1 ou k menor que 2, retorna excessão
     * @return : potência do logartimo.
     */
     public static double logari(final int n, final int k) {

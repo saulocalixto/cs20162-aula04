@@ -25,6 +25,7 @@ public final class Fibonacci {
 
     /**
      * @param n : Representa a posição na sequência que se quer descobrir.
+     * se n menor que zero retorna excessão
      * @return : O n-ésimo número na sequência de Fibonacci.
      */
     public static int obterFibonacci(final int n) {

@@ -22,6 +22,7 @@ public final class Potencia {
     /**
      * @param x número que vai receber a potência
      * @param y potência do número x
+     * se x ou y menor que 0, retorna excessão
      * @return retorna o número x ^ y.
      */
     public static int resultado(final int x, final int y) {

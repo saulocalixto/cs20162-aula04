@@ -27,6 +27,8 @@ public final class RaizQuadrada {
      *
      * @param n : Número que se desejar retirar a raiz quadrada.
      * @param i : Representa a precisão da raíz quadrada
+     * @throws IllegalArgumentException se n menor ou igual a 0, retorna
+     * excessão
      * @return : Retorna um double que representa a raíz quadrada de n.
      */
     public static double obterRaiz(final int n, final int i) {

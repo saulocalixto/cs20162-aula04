@@ -26,6 +26,8 @@ public final class RestoDivisao {
     /**
      * @param x : Dividendo
      * @param y : Divisor
+     * @throws IllegalArgumentException se x menor ou igual a 0, ou y menor que
+     * 0, retorna excessão
      * @return : Resto da divisão.
      */
     public static int obterResto(final int x, final int y) {

@@ -27,6 +27,8 @@ public final class RazaoAurea {
      * @param x : numero 1 da razão.
      * @param y : número 2 da razão.
      * @param k : tamanho da sequência
+     * @throws IllegalArgumentException se x menor que 0, ou x maior que y, ou
+     * k menor ou igual a 0, retorna excessão
      * @return : a razão aurea entre x e y.
      */
     public static double obterRazao(final int x, final int y, final int k) {

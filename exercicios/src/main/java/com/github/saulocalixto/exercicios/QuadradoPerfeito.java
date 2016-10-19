@@ -25,6 +25,7 @@ public final class QuadradoPerfeito {
 
     /**
      * @param k : Número que deseja verificar se é quadrado perfeito.
+     * @throws IllegalArgumentException se k menor que 1, retorna excessão
      * @return : True ou False, de acordo com a propriedade do número analisado.
      */
     public static boolean descobrirQuadrado(final int k) {

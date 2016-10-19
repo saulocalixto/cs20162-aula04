@@ -25,6 +25,7 @@ public final class SomaElementar {
 
     /**
      * @param n : Tamanho da sequência de soma.
+     * @throws IllegalArgumentException se n menor que 1, retorna excessão
      * @return : n-ésimo número na sequência de soma elementar.
      */
     public static int soma(final int n) {

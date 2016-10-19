@@ -25,6 +25,7 @@ public final class Fatorial {
 
     /**
      * @param n : Número natural o qual queremos fatorar.
+     * @throws IllegalArgumentException se n menor que 1 retorna excessão
      * @return : Retorna o número fatorado.
      */
     public static int fatorar(final int n) {

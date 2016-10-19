@@ -27,6 +27,7 @@ public final class Horner {
      * @param x : número que quer verificar.
      * @param g : número para fazer os cálculos.
      * @param a : vetor que representa a sequência do polinônimo
+     * @throws IllegalArgumentException se g menor que retorna excessão
      * @return o polinonimo da sequencia horner
      */
     public static int obterPolinonimo(final int x, final int g, final int[] a) {

@@ -30,6 +30,7 @@ public final class Pi {
 
     /**
      * @param n : limite do somatório para se obter o PI
+     * se n menor que 1 retorna excessão
      * @return : Retorna o PI
      */
     public static double calcPi(final double n) {
