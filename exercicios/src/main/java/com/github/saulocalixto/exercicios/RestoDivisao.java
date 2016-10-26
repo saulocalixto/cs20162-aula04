@@ -1,6 +1,7 @@
-/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
- * Aluno : Saulo de Araújo Calixto - Mt. 201609824
- * Disciplina : Construção de Software
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 package com.github.saulocalixto.exercicios;
 
@@ -26,8 +27,8 @@ public final class RestoDivisao {
     /**
      * @param x : Dividendo
      * @param y : Divisor
-     * @throws IllegalArgumentException se x menor ou igual a 0, ou y menor que
-     * 0, retorna excessão
+     * @throws IllegalArgumentException se o dividendo for menor ou igual a 0,
+     * ou divisor menor que 0, retorna excessão.
      * @return : Resto da divisão.
      */
     public static int obterResto(final int x, final int y) {

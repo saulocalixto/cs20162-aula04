@@ -1,6 +1,7 @@
-/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
- * Aluno : Saulo de Araújo Calixto - Mt. 201609824
- * Disciplina : Construção de Software
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 package com.github.saulocalixto.exercicios;
 
@@ -25,8 +26,8 @@ public final class QuadradoPerfeito {
 
     /**
      * @param k : Número que deseja verificar se é quadrado perfeito.
-     * @throws IllegalArgumentException se k menor que 1, retorna excessão
-     * @return : True ou False, de acordo com a propriedade do número analisado.
+     * @throws IllegalArgumentException se k menor que 1, retorna excessão.
+     * @return : True ou False, se k for quadrado perfeito ou não.
      */
     public static boolean descobrirQuadrado(final int k) {
         if (k < 1) {

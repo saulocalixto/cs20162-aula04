@@ -1,6 +1,7 @@
-/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
- * Aluno : Saulo de Araújo Calixto - Mt. 201609824
- * Disciplina : Construção de Software
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 package com.github.saulocalixto.exercicios;
 
@@ -24,9 +25,10 @@ public final class Pi {
     }
 
     /**
-     * Constante para guardar o número 4 e evitar magic number.
+     * Constante que representa o antecendente da razão para se calcular o PI:
+     * 4/(2i + 1).
      */
-    private static final int QUATRO = 4;
+    private static final int ANTECEDENTE = 4;
 
     /**
      * @param n : limite do somatório para se obter o PI
@@ -44,7 +46,7 @@ public final class Pi {
         while (i <= n) {
             d = d + 2;
             s *= (-1);
-            p += (QUATRO * s / d);
+            p += (ANTECEDENTE * s / d);
             i++;
         }
 

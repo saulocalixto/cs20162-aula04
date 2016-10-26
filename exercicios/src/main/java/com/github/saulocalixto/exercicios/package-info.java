@@ -12,7 +12,6 @@
  * (j) {@link com.github.saulocalixto.exercicios.RestoDivisao}
  * (k) {@link com.github.saulocalixto.exercicios.SomaElementar}
  *
- * relevante ({@link com.github.saulocalixto.exercicios.Fatorial}).
  *
  * @see com.github.saulocalixto.exercicios.Fatorial
  * @see com.github.saulocalixto.exercicios.Fibonacci

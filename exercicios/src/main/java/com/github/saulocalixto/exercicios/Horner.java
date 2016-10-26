@@ -1,6 +1,7 @@
-/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
- * Aluno : Saulo de Araújo Calixto - Mt. 201609824
- * Disciplina : Construção de Software
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 package com.github.saulocalixto.exercicios;
 
@@ -26,9 +27,9 @@ public final class Horner {
     /**
      * @param x : número que quer verificar.
      * @param g : número para fazer os cálculos.
-     * @param a : vetor que representa a sequência do polinônimo
-     * @throws IllegalArgumentException se g menor que retorna excessão
-     * @return o polinonimo da sequencia horner
+     * @param a : vetor que representa a sequência do polinônimo.
+     * @throws IllegalArgumentException se g menor que retorna excessão.
+     * @return o polinonimo da sequencia horner.
      */
     public static int obterPolinonimo(final int x, final int g, final int[] a) {
 

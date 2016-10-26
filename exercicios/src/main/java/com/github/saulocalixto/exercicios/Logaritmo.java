@@ -1,6 +1,7 @@
-/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
- * Aluno : Saulo de Araújo Calixto - Mt. 201609824
- * Disciplina : Construção de Software
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 package com.github.saulocalixto.exercicios;
 
@@ -28,11 +29,11 @@ public final class Logaritmo {
 
     /**
     *
-    * @param n : logratimo natural
+    * @param n : logratimo natural.
     * @param k : tamanho da aproximação
     * @throws IllegalArgumentException se n menor que 1 ou k menor que 2,
-    * retorna excessão
-    * @return : potência do logartimo.
+    * retorna excessão.
+    * @return : potência do logaritimo.
     */
     public static double logari(final int n, final int k) {
 

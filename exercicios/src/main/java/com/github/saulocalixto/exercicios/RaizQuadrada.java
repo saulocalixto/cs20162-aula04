@@ -1,6 +1,7 @@
-/*UNIVERSIDADE FEDERAL DE GOIÁS - ENGENHARIA DE SOFTWARE
- * Aluno : Saulo de Araújo Calixto - Mt. 201609824
- * Disciplina : Construção de Software
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 package com.github.saulocalixto.exercicios;
 
@@ -26,9 +27,9 @@ public final class RaizQuadrada {
     /**
      *
      * @param n : Número que se desejar retirar a raiz quadrada.
-     * @param i : Representa a precisão da raíz quadrada
+     * @param i : Representa a precisão da raiz quadrada.
      * @throws IllegalArgumentException se n menor ou igual a 0, retorna
-     * excessão
+     * excessão.
      * @return : Retorna um double que representa a raíz quadrada de n.
      */
     public static double obterRaiz(final int n, final int i) {
